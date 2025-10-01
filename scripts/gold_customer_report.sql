@@ -27,6 +27,9 @@ Highlights:
 
 */
 
+IF OBJECT_ID('gold_customer_report', 'V') IS NOT NULL
+       DROP VIEW gold_customer_report;
+GO
 
 /* 
 1. Base Query: Retrieves core columns from tables
